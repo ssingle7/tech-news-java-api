@@ -7,7 +7,7 @@
 <body>
 
 <div layout:fragment="content">
-    Hello
+
     <ol>
         <li th:each="post : ${postList}" class="post-list">
             <div th:insert="fragments/post-fragment :: post-fragment"></div>
